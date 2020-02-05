@@ -8,29 +8,52 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-    <title>Bands in Town</title>
+    <title>Hello, World!</title>
   </head>
   <body>
     <div class="container">
 
       <div class="jumbotron jumbotron-fluid">
-        <h1 class="display-4"></h1>
-        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-        <hr class="my-4">
-        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+          <h1 class="display-4">Would you like to know more about stuff????</h1>
+          <p class="lead">This is where you WILL learn more about anything that is listed in the dictionary.</p>
+          <hr class="my-4">
+          <p>Here are a couple free guesses on me :)</p>
+          <form class="form-inline">
+            <button type="submit" id="cats-button">CATS!</button>
+            <button type="submit" id="cows-button">COWS!</button>
+            <button type="submit" id="dogs-button">DOGS!</button>
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit" id="search-button">Go Time!!!</button>
+          </form>
       </div>
-      
-   
-      
-
-      
     </div>
+
+    </div>
+    <div class="row">
+      <div id ="gifColumn" class="col-lg-3" style="border-style: double; border-radius: 10px; border-color: fuchsia; border-width: 5px;">
+        <p id="Column"> gif column</p>
+      </div>
+
+      <div class="col-lg-6" style="border-style: dotted; border-radius: 10px; border-color: hotpink ; border-width: 5px;">
+        <p id="factColumn">this is to see the middle where ill put the search information</p>
+      </div>
+
+      <div class="col-lg-3" style="border-style: groove; border-radius: 10px; border-color: gold; border-width: 5px;">
+        <p id="recentSearch">is to see where the other column</p>
+        </div>   
+        
+        
+    
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="logic.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    <!-- <script src="style.css"></script> -->
   </body>
 </html>
